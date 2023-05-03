@@ -14,7 +14,7 @@ div.onmousedown = function(e){
     dragging = true
 }
 
-div.onmousemove = function(e) {
+document.onmousemove = function(e) {
 // ↑  这里使用document而不用document.body和div，是防止body定义过小或者鼠标移动过快时，光标脱离div导致div无法移动
     if (dragging === true) {
         var deltaX = e.clientX - lastX
