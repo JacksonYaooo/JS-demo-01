@@ -11,4 +11,5 @@ body{
     /* border: 10px solid green; */
     height: 100vh;  /*高度的设置很有必要*/
     box-sizing: border-box;
+    overflow:hidden;
 }
